@@ -1,0 +1,18 @@
+%% Setup to use an index card
+\documentclass[10pt]{book}
+\usepackage[vcentering,dvips]{geometry}
+\geometry{papersize={3in,5in},total={2.9in,4.9in}}
+
+%% render a frame marking the margins of a document
+% \usepackage{showframe}
+
+%% show landscape view
+\usepackage{pdflscape}
+
+%% Use for testing by filling junk (lorem-ipsum) information
+\usepackage{lipsum}
+
+\begin{document}
+\begin{landscape}
+
+%% Use for testing by filling junk (lorem-ipsum) information
